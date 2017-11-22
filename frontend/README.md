@@ -11,8 +11,7 @@
 
   * #### build tools
     * [gulp^3.9.1](https://gulpjs.com/)
-    * [gulp](http://webpack.github.io/)
-    * [browser-sync^2.18.13](https://github.com/glenjamin/webpack-hot-middleware)
+    * [browser-sync^2.18.13](https://browsersync.io/)
     * [babeljs ^6.26.0](https://babeljs.io/)
 
 ## Setup
