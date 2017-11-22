@@ -1,0 +1,27 @@
+{{!-- common layout --}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ static_base }}/vendor/bootstrap/css/bootstrap{{#dev_lambda}}.min{{/dev_lambda}}.css">
+    <link rel="stylesheet" type="text/css" href="{{ static_base }}/css/main{{#dev_lambda}}.min{{/dev_lambda}}.css">
+    <title>{{{ __title__ }}}</title>
+</head>
+<body>
+<!-- header.mustache renders here -->
+{{>_header}}
+<!-- breadcrumb renders here on present -->
+{{{ __breadcrumb__ }}}
+<!-- page body renders here -->
+{{{ __body__ }}}
+<script type="application/javascript" src="{{ static_base }}/vendor/jquery/jquery{{#dev_lambda}}.min{{/dev_lambda}}.js"></script>
+<script type="application/javascript" src="{{ static_base }}/vendor/popperjs/popper{{#dev_lambda}}.min{{/dev_lambda}}.js"></script>
+<script type="application/javascript" src="{{ static_base }}/vendor/bootstrap/js/bootstrap{{#dev_lambda}}.min{{/dev_lambda}}.js"></script>
+<script type="application/javascript" src="{{ static_base }}/js/main{{#dev_lambda}}.min{{/dev_lambda}}.js"></script>
+<!-- page footer renders here on present -->
+{{{ __footer__ }}}
+<!-- footer.mustache renders here -->
+{{>_footer}}
+</body>
+</html>

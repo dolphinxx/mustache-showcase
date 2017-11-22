@@ -10,3 +10,8 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+/.idea
+/mustache-showcase.iml
+/frontend/dist_html
+/frontend/node_modules
+/frontend/dist

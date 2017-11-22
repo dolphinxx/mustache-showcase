@@ -1,0 +1,29 @@
+{{# layout_lambda}}
+    {{#title_lambda}}Home{{/title_lambda}}
+    {{#nav_name_lambda}}home{{/nav_name_lambda}}
+    <div class="container column-container-wrapper">
+        <div class="column-container">
+            {{#list}}
+                <div class="figure-wrapper">
+                    <figure>
+                        <a class="image-wrapper" href="{{ source }}">
+                            <img src="{{#res_url_lambda }}{{ thumb }}{{/res_url_lambda}}"
+                                 alt="{{title}}">
+                        </a>
+                        <figcaption>
+                            <a href="{{ source }}"><h3>{{ title }}</h3></a>
+                            <p class="digital">
+                                <span>{{#format_date_lambda}}{{createTime}}|yyyy-MM-dd{{/format_date_lambda}}</span>
+                                <em>{{ visits }}</em>
+                            </p>
+                            <!--<small>{{ summary }}</small>-->
+                        </figcaption>
+                    </figure>
+                </div>
+            {{/list}}
+        </div>
+    </div>
+    {{# footer_lambda}}
+        <script type="text/javascript" src="{{ static_base }}/vendor/masonry-layout/masonry.pkgd{{#dev_lambda}}.min{{/dev_lambda}}.js"></script>
+    {{/footer_lambda}}
+{{/layout_lambda}}

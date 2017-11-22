@@ -1,0 +1,35 @@
+{
+  "name": "mustache-shwocase",
+  "title": "Mustache Showcase",
+  "version": "1.0.0",
+  "homepage": "https://github.com/adaikiss/mustache-showcase",
+  "author": "Dolphin",
+  "description": "The frontend of Mustache showcase",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-data": "^1.2.1",
+    "gulp-header": "^1.8.9",
+    "gulp-mustache": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "moment": "^2.19.2",
+    "moment-jdateformatparser": "^1.1.0",
+    "mustache": "^2.3.0"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "masonry-layout": "^4.2.0",
+    "popper.js": "1.12.9",
+    "bootstrap-4": "^4.0.0"
+  }
+}

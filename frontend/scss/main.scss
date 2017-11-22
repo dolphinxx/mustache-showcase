@@ -1,0 +1,18 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "mixins";
+@import "components";
+@import "header";
+@import "footer";
+
+// Bootstrap Overwrite
+
+.breadcrumb {
+  background-color: transparent;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  padding-top: 3.5rem;
+}

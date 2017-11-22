@@ -1,0 +1,39 @@
+.container.column-container-wrapper{
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.column-container {
+  @media screen and (max-width: 750px) {
+    .column-container {
+      //column-gap: 0px;
+    }
+    .column-container figure {
+      //width: 100%;
+    }
+  }
+  //&:hover figure:not(:hover) {
+  //  opacity: 0.4;
+  //}
+}
+
+.column-container .figure-wrapper {
+  @media (max-width: 575px) {
+    width: 100%;
+  }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 50%;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    width: 33.33333%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 25%;
+  }
+}

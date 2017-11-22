@@ -1,0 +1,59 @@
+.figure-wrapper {
+  $column-offset: 6px;
+  width: 100%;
+  padding: $column-offset;
+  figure {
+    @include box;
+    margin: 0;
+    padding: 12px;
+    padding-bottom: 6px;
+    transition: opacity .4s ease-in-out;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    &:hover {
+      a {
+        color: $highlight-color;
+      }
+    }
+    .image-wrapper {
+      //padding-bottom: 0;
+      background-color: #f2f2f2;
+      margin-bottom: 15px;
+    }
+    figcaption {
+      line-height: 1.5;
+      font-size: 1.6rem;
+      white-space: normal;
+      word-break: break-all;
+      a {
+        transition: color .6s;
+        color: $body-color;
+        text-decoration: none;
+        margin-bottom: 0.5em;
+      }
+      .digital {
+        @include clearfix;
+        font-size: 1.2rem;
+        color: $text-muted;
+        margin-bottom: 0.5em;
+        >em {
+          float: right;
+          font-style: normal;
+        }
+      }
+      small {
+        display: block;
+        //max-height: 3em;
+        overflow: hidden;
+        cursor: pointer;
+      }
+    }
+    a {
+      display: block;
+    }
+  }
+}
