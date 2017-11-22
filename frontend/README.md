@@ -1,4 +1,4 @@
-# Mustache Showcase Backend
+# Mustache Showcase Frontend
 
 > A simple boilerplate for **Mustache** template development.
 
