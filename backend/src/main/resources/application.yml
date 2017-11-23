@@ -1,0 +1,23 @@
+mustache:
+  layout:
+    category:
+      _default_: "category/_layout"
+    food:
+      detail: "food/_layout"
+
+---
+spring:
+  profiles: "dev"
+  mustache:
+    suffix: ".mustache"
+
+server:
+  port: 13000
+
+logging:
+  level:
+    ROOT: "DEBUG"
+    sun.rmi: "ERROR"
+
+static_base: "http://localhost:3000/static"
+res_base: "http://localhost:3000/res"

@@ -20,6 +20,7 @@
     * `$ git clone https://github.com/adaikiss/mustache-showcase.git mustache-showcase`
     * `$ cd mustache-showcase/backend && mvn clean package`
 
-## Run
-    `$ mvn spring-boot:run` or specify port `mvn spring-boot:run -Dserver.port=8888`
+## Run (before this, go to frontend directory and run gulp serve to serve static resources)
+- `$ mvn clean spring-boot:run -Dspring-boot.run.jvmArguments="-Dspring.mustache.prefix=file:..\\frontend\\template\\ -Dspring.profiles.active=dev"`
+- add this to `argLine` to use another port `-Dserver.port=8888`
 

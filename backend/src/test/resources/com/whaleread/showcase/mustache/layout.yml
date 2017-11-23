@@ -1,0 +1,9 @@
+category:
+  _default_: "category/_layout"
+food:
+  detail: "food/_layout"
+boo:
+  _default_: "boo/_layout"
+  index: "_boo"
+  foo:
+    detail: "boo/_detail"
