@@ -15,13 +15,13 @@
 {{{ __breadcrumb__ }}}
 <!-- page body renders here -->
 {{{ __body__ }}}
+<!-- footer.mustache renders here -->
+{{>_footer}}
 <script type="application/javascript" src="{{ static_base }}/vendor/jquery/jquery{{#dev_lambda}}.min{{/dev_lambda}}.js"></script>
 <script type="application/javascript" src="{{ static_base }}/vendor/popperjs/popper{{#dev_lambda}}.min{{/dev_lambda}}.js"></script>
 <script type="application/javascript" src="{{ static_base }}/vendor/bootstrap/js/bootstrap{{#dev_lambda}}.min{{/dev_lambda}}.js"></script>
 <script type="application/javascript" src="{{ static_base }}/js/main{{#dev_lambda}}.min{{/dev_lambda}}.js"></script>
 <!-- page footer renders here on present -->
 {{{ __footer__ }}}
-<!-- footer.mustache renders here -->
-{{>_footer}}
 </body>
 </html>
