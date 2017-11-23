@@ -2,6 +2,19 @@
 
 > A simple mustache showcase illustrates how to use the same mustache templates in both frontend(Node) and backend(Java).
 
+Mustache is a logic-less templates, implemented in many languages. 
+
+This project shows how we can write a web project's backend codes with spring-webflux and leave mustache templates and css/js codes to the frontend colleagues.
+
+## Quick try
+```bash
+$ git clone https://github.com/adaikiss/mustache-showcase.git mustache-showcase mustache-showcase
+$ cd frontend
+$ npm i
+$ gulp serve
+$ cd ../backend
+$ mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Dspring.mustache.prefix=file:..\\frontend\\template\\ -Dspring.profiles.active=dev" 
+```
 
 ## [Backend](backend/README.md)
 
