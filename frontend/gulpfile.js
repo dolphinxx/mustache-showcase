@@ -147,6 +147,23 @@ gulp.task('mustache', function () {
 // Run everything
 gulp.task('default', ['minify-css', 'minify-js', 'copy-vendor', 'copy-image']);
 
+// Just serve static resources(seems like spring web locks template files while running)
+gulp.task('serve', ['sass', 'js', 'copy-vendor', 'copy-image'], function(){
+    browserSync.init({
+        server: {
+            baseDir: dist,
+            routes: {
+                '/static': dist,
+                '/res': 'mock/res'
+            }
+        }
+    });
+
+    gulp.watch("js/**/*.js", ['js']);
+    gulp.watch("scss/**/*.scss", ['sass']);
+    gulp.watch("image/**/*", ['copy-image']);
+});
+
 // Static Server + watching scss/html files
 gulp.task('dev', ['sass', 'js', 'copy-vendor', 'copy-image', 'mustache'], function () {
 
