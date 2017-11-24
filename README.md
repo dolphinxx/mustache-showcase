@@ -8,11 +8,17 @@ This project shows how we can write a web project's backend codes with spring-we
 
 ## Quick try
 ```bash
+// checkout the project
 $ git clone https://github.com/adaikiss/mustache-showcase.git mustache-showcase mustache-showcase
+// go to frontend directory
 $ cd frontend
+// install npm dependencies
 $ npm i
+// run static resource server
 $ gulp serve
+// go to backend directory
 $ cd ../backend
+// run backend server
 $ mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Dspring.mustache.prefix=file:..\\frontend\\template\\ -Dspring.profiles.active=dev" 
 ```
 

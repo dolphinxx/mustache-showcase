@@ -1,8 +1,8 @@
-# Mustache Showcase Backend
+# Mustache 示例后台
 
-> A spring web server using mustache template
+> 一个使用mustache作为模板的spring web服务
 
-## Libraries used
+## 用到的依赖库
 
 * #### spring-boot-starter-webflux
 
@@ -10,18 +10,18 @@
 
 * #### lombok
 
-## Setup
+## 部署
 
-* ### Requires
+* ### 依赖
     * JDK
     * Maven
 
-* ### Installation
+* ### 安装
     * `$ git clone https://github.com/adaikiss/mustache-showcase.git mustache-showcase`
     * `$ cd mustache-showcase/backend && mvn clean package`
 
-## Run
-> before this, go to frontend directory and run `gulp serve` to serve static resources, so we can load required css/js.
+## 运行
+> 在此之前，先到frontend目录运行`gulp serve`来提供静态资源服务，以便能请求到依赖的css/js。
 - `$ mvn clean spring-boot:run -Dspring-boot.run.jvmArguments="-Dspring.mustache.prefix=file:..\\frontend\\template\\ -Dspring.profiles.active=dev"`
 - add this to `argLine` to use another port `-Dserver.port=8888`
 
