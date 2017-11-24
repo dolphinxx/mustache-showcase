@@ -27,6 +27,7 @@ const viewMapper = {
  */
 const layoutMapper = {
     'food': 'food/_layout',// custom layout
+    'pets': 'category/_layout',// custom layout
     'default': '_layout'
 };
 
