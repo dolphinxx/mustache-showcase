@@ -2,7 +2,7 @@
 
 > A simple mustache showcase illustrates how to use the same mustache templates in both frontend(Node) and backend(Java).
 
-English | [中文](/adaikiss/mustache-showcase/blob/master/README.zh-cn.md)
+English | [中文](/README.zh-cn.md)
 
 Mustache is a logic-less templates, implemented in many languages. 
 

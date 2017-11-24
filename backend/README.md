@@ -2,7 +2,7 @@
 
 > A spring web server using mustache template
 
-English | [中文](/adaikiss/mustache-showcase/blob/master/backend/README.zh-cn.md)
+English | [中文](/backend/README.zh-cn.md)
 
 ## Libraries used
 
