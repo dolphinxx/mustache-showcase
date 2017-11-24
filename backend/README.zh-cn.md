@@ -2,7 +2,7 @@
 
 > 一个使用mustache作为模板的spring web服务
 
-[English](/backend/README.md) | 中文
+[English](backend/README.md) | 中文
 
 ## 用到的依赖库
 

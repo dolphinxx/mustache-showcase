@@ -2,7 +2,7 @@
 
 > A simple boilerplate for **Mustache** template development.
 
-English | [中文](/frontend/README.zh-cn.md)
+English | [中文](frontend/README.zh-cn.md)
 
 ## Libraries used
   * [mustache^2.3.0](https://mustache.github.io/)

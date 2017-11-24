@@ -2,7 +2,7 @@
 
 > 一个演示如何在前端(Node)与后台(Java)使用同一份Mustache模板的例子
 
-[English](/README.md) | 中文
+[English](README.md) | 中文
 
 Mustache是一个无逻辑的模板语言，有多个语言的实现。
 

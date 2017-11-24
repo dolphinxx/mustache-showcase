@@ -2,7 +2,7 @@
 
 > 一个简单的**Mustache**模板开发样板
 
-[English](/frontend/README.md) | 中文
+[English](frontend/README.md) | 中文
 
 ## 用到的依赖库
   * [mustache^2.3.0](https://mustache.github.io/)
