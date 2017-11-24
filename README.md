@@ -2,6 +2,8 @@
 
 > A simple mustache showcase illustrates how to use the same mustache templates in both frontend(Node) and backend(Java).
 
+English | [中文](/adaikiss/mustache-showcase/blob/master/README.zh-cn.md)
+
 Mustache is a logic-less templates, implemented in many languages. 
 
 This project shows how we can write a web project's backend codes with spring-webflux and leave mustache templates and css/js codes to the frontend colleagues.

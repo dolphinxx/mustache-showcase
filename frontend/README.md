@@ -2,6 +2,8 @@
 
 > A simple boilerplate for **Mustache** template development.
 
+English | [中文](/adaikiss/mustache-showcase/blob/master/frontend/README.zh-cn.md)
+
 ## Libraries used
   * [mustache^2.3.0](https://mustache.github.io/)
   * [jquery^3.2.1](https://jquery.org/)

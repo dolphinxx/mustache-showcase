@@ -2,6 +2,8 @@
 
 > 一个演示如何在前端(Node)与后台(Java)使用同一份Mustache模板的例子
 
+[English](/adaikiss/mustache-showcase/blob/master/README.md) | 中文
+
 Mustache是一个无逻辑的模板语言，有多个语言的实现。
 
 本项目演示如何使用spring-webflux书写网站后台代码，而将mustache模板和css/js留给前端同事来完成。
