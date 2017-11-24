@@ -125,7 +125,7 @@ gulp.task('mustache', function () {
                 .on('end', stream => resolve(stream));
         }),
         new Promise(function (resolve, reject) {
-            gulp.src(devMustacheDir + "**!/[!_]*" + mustacheSuffix)
+            gulp.src(devMustacheDir + "**/[!_]*" + mustacheSuffix)
                 .pipe(fileData(file => {
                     const templateName = file.path.substring(devMustacheBasePath.length + 1, file.path.length - mustacheSuffix.length).replace(/\\/g, '/');
                     // console.log(file.path, templateName);
