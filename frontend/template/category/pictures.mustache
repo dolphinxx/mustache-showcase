@@ -3,7 +3,7 @@
     <div class="container column-container-wrapper">
         <div class="column-container">
             {{#list}}
-                <div class="figure-wrapper">
+                <div class="figure-wrapper {{#_odd_ }}odd{{/_odd_}}">
                     <figure>
                         <a class="image-wrapper" href="{{ source }}">
                             <img src="{{#res_url_lambda }}{{ thumb }}{{/res_url_lambda}}"

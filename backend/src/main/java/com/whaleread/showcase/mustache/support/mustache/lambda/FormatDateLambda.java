@@ -37,10 +37,17 @@ public class FormatDateLambda implements Mustache.Lambda {
             expr = body.substring(0, split).trim();
             format = body.substring(split + 1).trim();
         }
-        if(expr.length() == 0) {
+        if (expr.length() == 0) {
             log.debug("date_format_lambda param date is empty!");
             return;
         }
-        out.write(new SimpleDateFormat(format).format(new Date(Long.parseLong(expr))));
+        long timestamp;
+        try {
+            timestamp = Long.parseLong(expr);
+        } catch (NumberFormatException e) {
+            log.debug("MaleFormed number, body: {}", body);
+            return;
+        }
+        out.write(new SimpleDateFormat(format).format(new Date(timestamp)));
     }
 }
